@@ -410,6 +410,7 @@ a.header-phone-window-link {font:11px/15px DINProMedium, sans-serif; color:#fff;
 }
 
 .about-cols {margin:0 -15px; padding:30px 0 0 0}
+.about-cols+.about-cols {padding-top:0}
 .about-cols:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
 .about-col {float:left; width:50%; padding:0 15px; box-sizing:border-box}
 .about-col h3 {font-weight:bold; font-size:30px; line-height:30px; margin:56px 0 34px 0; padding:0; color:#000; text-transform:uppercase}
@@ -818,6 +819,8 @@ a.header-phone-window-link {font:11px/15px DINProMedium, sans-serif; color:#fff;
 .how-form-file .form-file-name {line-height:40px}
 .how-form .form-submit {background:#f7f7f7; border-radius:0 0 3px 3px; padding:25px 0; text-align:center; width:auto; margin:0}
 .how-form .form-submit .btn-1 {width:358px; margin:0 auto; height:50px; line-height:50px; font-size:14px}
+.how-form-row .form-input.error::after {display:none}
+.how-form-row .form-input.valid::after {display:none}
 
 .how .main-header-form {display:none}
 
