@@ -283,7 +283,7 @@ nav > ul > li > ul > li > a:hover {color:#fff; text-decoration:none; background:
     .bg-gallery {height:426px}
 }
 
-header {position:relative; max-width:1170px; padding:0 15px 0 15px; margin:0 auto; height:86px; z-index:9}
+header {position:relative; max-width:1170px; padding:0 15px 0 15px; margin:0 auto; height:86px; z-index:11}
 header:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
 
 @media (max-width:1199px) {
@@ -328,6 +328,8 @@ a.header-phone-window-link {font:11px/15px DINProMedium, sans-serif; color:#fff;
 .header-phone-window-content .form-input label.error {font-size:14px; line-height:20px; font-weight:normal; text-transform:none}
 .header-phone-window-content .form-submit {width:auto; margin:44px 0 0 0}
 .header-phone-window-content .form-submit .btn-1 {height:50px; line-height:50px; font-size:14px}
+.header-phone-window-content .form-checkbox {float:left; width:100%; margin:10px 0 0 0; font-size:11px; line-height:20px; font-weight:normal; text-transform:none; color:#484848}
+.header-phone-window-content .form-checkbox span {top:1px}
 
 @media (max-width:1199px) {
     .header-phone {display:none}
@@ -552,6 +554,8 @@ a.header-phone-window-link {font:11px/15px DINProMedium, sans-serif; color:#fff;
 .main-header-form .form-input textarea {height:80px}
 .main-header-form-text {margin:17px -5px 23px 0}
 .main-header-form-text a {background:#ffc613; display:inline-block; color:#000; padding:0 6px}
+.main-header-form .form-checkbox {margin:10px 0 0 0; font-size:11px}
+.main-header-form .form-checkbox span {top:1px}
 .main-header-form .form-submit {width:auto}
 .main-header-form .form-submit .btn-1 {font-size:14px}
 
@@ -782,6 +786,8 @@ a.header-phone-window-link {font:11px/15px DINProMedium, sans-serif; color:#fff;
 .geography-item-feedback-form .form-submit {float:left; width:50px; margin:32px 0 0 0}
 .geography-item-feedback-form .form-submit .btn-1 {background:#ffe613}
 .geography-item-feedback-form .form-submit .btn-1:hover {background:#ffba13}
+.geography-item-feedback-form .form-checkbox {float:left; width:100%; margin:10px 0 0 0; font-size:12px}
+.geography-item-feedback-form .form-checkbox span {top:1px}
 
 @media (max-width:1199px) {
     .geography-item-content {float:none; width:auto; padding:0}
@@ -797,6 +803,8 @@ a.header-phone-window-link {font:11px/15px DINProMedium, sans-serif; color:#fff;
     .geography-item-feedback-form .form-label {display:none}
     .geography-item-feedback-form .form-submit {float:none; width:auto; margin:16px 0 0 0}
     .geography-item-feedback-form .form-submit .btn-1 {height:40px; line-height:40px}
+    .geography-item-feedback-form .form-checkbox {float:none; width:auto; margin:10px 0 0 0; font-size:11px}
+    .geography-item-feedback-form .form-checkbox span {top:3px}
 }
 
 .geography-list {display:none}
@@ -907,6 +915,8 @@ footer {background:#f7f7f7; margin:-300px 0 0 0; position:relative; min-width:48
 .footer-feedback-form .form-submit {float:left; width:50px; margin:32px 0 0 0}
 .footer-feedback-form .form-submit .btn-1 {background:#ffe613}
 .footer-feedback-form .form-submit .btn-1:hover {background:#ffba13}
+.footer-feedback-form .form-checkbox {float:left; width:100%; margin:10px 0 0 0; font-size:12px}
+.footer-feedback-form .form-checkbox span {top:1px}
 
 @media (max-width:1199px) {
     .footer-feedback {float:none; margin:30px 0 0 0; width:auto}
@@ -918,6 +928,8 @@ footer {background:#f7f7f7; margin:-300px 0 0 0; position:relative; min-width:48
     .footer-feedback-form .form-label {display:none}
     .footer-feedback-form .form-submit {float:none; width:auto; margin:16px 0 0 0}
     .footer-feedback-form .form-submit .btn-1 {height:40px; line-height:40px}
+    .footer-feedback-form .form-checkbox {float:none; width:auto; margin:10px 0 0 0; font-size:12px}
+    .footer-feedback-form .form-checkbox span {top:3px}
 }
 
 .footer-contacts-branches {font-size:12px; padding:38px 0 0 0}
