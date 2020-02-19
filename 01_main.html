@@ -16,6 +16,7 @@
         <script src="js/validation/messages_ru.js"></script>
         <script src="js/fancybox/jquery.fancybox.min.js"></script>
         <script src="js/slick/slick.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
         <script src="js/tools.js"></script>
 
         <meta name="viewport" content="width=device-width" />
@@ -116,6 +117,10 @@
                                     <div class="form-file-name"></div>
                                 </div>
                                 <div class="form-checkbox"><label><input type="checkbox" name="agreement" value="Y" checked="checked" class="required" /><span></span>Я принимаю условия <a href="#" target="_blank">политики конфиденциальности</a></label></div>
+                                <div class="form-captcha">
+                                    <div class="g-recaptcha" id="g-recaptcha-1"></div>
+                                    <input type="hidden" class="required" name="hiddenRecaptcha" value="" />
+                                </div>
                                 <div class="form-submit"><input type="submit" value="Стать клиентом" class="btn-1" /></div>
                             </form>
                         </div>
@@ -1052,6 +1057,10 @@
                                     <div class="form-file-name"></div>
                                 </div>
                                 <div class="form-checkbox"><label><input type="checkbox" name="agreement" value="Y" checked="checked" class="required" /><span></span>Я принимаю условия <a href="#" target="_blank">политики конфиденциальности</a></label></div>
+                                <div class="form-captcha">
+                                    <div class="g-recaptcha" id="g-recaptcha-2"></div>
+                                    <input type="hidden" class="required" name="hiddenRecaptcha" value="" />
+                                </div>
                                 <div class="form-submit"><input type="submit" value="Стать клиентом" class="btn-1" /></div>
                             </form>
                         </div>
@@ -1073,6 +1082,10 @@
                                         </div>
                                         <div class="form-input"><textarea name="message" rows="2" cols="10" placeholder="Опишите тип, объем груза и&nbsp;интересующий вас способ хранения" class="required"></textarea></div>
                                         <div class="form-checkbox"><label><input type="checkbox" name="agreement" value="Y" checked="checked" class="required" /><span></span>Я принимаю условия <a href="#" target="_blank">политики конфиденциальности</a></label></div>
+                                        <div class="form-captcha">
+                                            <div class="g-recaptcha" id="g-recaptcha-3"></div>
+                                            <input type="hidden" class="required" name="hiddenRecaptcha" value="" />
+                                        </div>
                                     </div>
                                     <div class="how-form-file">
                                         <div class="main-header-form-text">Для получения полного расчета стоимости услуги хранения вам потребуется <a href="#">скачать анкету (.xls)</a>, заполнить ее и прикрепить к заявке.</div>
